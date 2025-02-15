@@ -1,0 +1,503 @@
+.all-design{
+    margin: 0;
+    background-color: rgba(34, 40, 49, 1);
+}
+header{
+    background-color: rgba(34, 40, 49, 1);
+}
+.Header-1{
+    color: #EEEEEE;
+    font-size: 96px;
+    font-weight: bold;
+}
+.Designer{
+    color: #00ADB5;
+    font-size: 96px;
+    font-weight: bold;
+}
+.btn-hire-me{
+    background-color: #00ADB5;
+    color: #EEEEEE;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.9);
+    font-weight: bold;
+    border-radius: 40px;
+    font-size: 18px;
+    padding:10px 30px 10px 30px;
+    border: #00ADB5;
+   
+}
+.btn-hire-me:hover {
+    background-color: #009698;
+    }
+.btn-download-cv{
+    color: #EEEEEE;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    background-color:#393E46 ;
+    border-radius: 40px;
+    font-size: 18px;  
+    padding:10px 30px 10px 30px;
+    border: #393E46;
+}
+.btn-download-cv:hover {
+    background-color:black;
+    }
+     .img-section-1{
+        margin-left: 200px;
+    }
+#icon-1 {
+        margin-left: 464px;
+    }
+    #icon-1 img{
+        width: 70px;
+    }
+.header-about{
+    color: #EEEEEE;
+    font-weight: bold;
+    font-size: 64px;
+}
+.about-me-section-1{
+    padding: 100px 0 100px 0;
+}
+.got-project-section-1{
+    padding: 100px 0 100px 0;
+}
+.namme-email-form{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.input-box {
+    width: 48%;
+    }
+.text-me{
+    color: #00ADB5;
+    font-weight: bold;
+    font-size: 64px;
+}
+.some-text{
+    color: #EEEEEE;
+    font-size: 18px;
+    font-family: Poppins;
+    line-height: 27px;
+    font-family:'Courier New', Courier, monospace;
+}
+.btn-read-more{
+       color: #EEEEEE;
+       background-color: transparent;
+       border: none;
+       font-weight: bold;
+       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header-my-recent-work{
+    color: #EEEEEE;
+    font-weight: bold;
+    font-size: 64px;
+}
+.btn-works-recent{
+    color: #00ADB5;
+    font-weight: bold;
+    font-size: 64px;
+}
+.recent-work-imgs{
+    margin-bottom: 20px;
+}
+.btn-all{
+    color: #EEEEEE;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.9);
+    font-weight: bold;
+    border-radius: 40px;
+    font-size: 18px;
+    background-color: #00ADB5;
+    padding:2px 20px 2px 20px;
+    border: #00ADB5;
+}
+.btn-all:hover {
+    background-color: #009698;
+    }
+.btn-ui{
+    background-color: #393E46;
+    color: #EEEEEE;
+    font-weight: bold;
+    border-radius: 40px;
+    font-size: 18px;
+    padding:2px 20px 2px 20px;
+    margin-left: 10px;
+    border: #393E46;
+}
+.btn-ui:hover {
+    background-color:black;
+    }
+.btn-ux{
+    background-color: #393E46;
+    color: #EEEEEE;
+    font-weight: bold;
+    border-radius: 40px;
+    font-size: 18px;
+    padding:2px 20px 2px 20px;
+    margin-left: 10px;
+    border: #393E46;
+}
+.btn-ux:hover {
+    background-color:black;
+    }
+.btn-web{
+    background-color: #393E46;
+    color: #EEEEEE;
+    font-weight: bold;
+    border-radius: 40px;
+    font-size: 18px;
+    padding:2px 20px 2px 20px;
+    margin-left: 10px;
+    border: #393E46;
+}
+.btn-web:hover {
+    background-color:black;
+    }
+#icon-d{
+    width: 25px;
+    height: 25px;
+    padding-bottom: 2px;
+}
+.logo{
+    margin-left: 150px;
+    font-size: 24px;
+    font-weight: bold;
+    height: 36px;
+
+}
+.line{
+    color: rgba(238, 238, 238, 0.1);
+    opacity: 100%;
+}
+.my-recent-work-section{
+    background-image: url(doodle\ items.png);
+    background-repeat: repeat;
+    background-size: 33.33% 33.33%;
+    padding: 200px 0 200px 0; 
+}
+.got-project-header{
+    color: #EEEEEE;
+    font-weight: bold;
+    font-size: 64px;
+}
+.mind{
+    color: #00ADB5;
+    font-weight: bold;
+    font-size: 64px;
+}
+.form-color{
+    color: #EEEEEE;
+}
+textarea.form-control.form-textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #393E46;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #EEEEEE;
+    height: 400px;
+}
+.got-project-img img{
+    width: 220px;
+    height: 300px;
+    margin-left: 270px;
+    }
+textarea.form-control.form-textarea::placeholder {
+    color: #EEEEEE;
+}
+input.form-control.form-input {
+    width: 100%;
+    padding: 10px;
+    background-color: #393E46;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #EEEEEE;
+}
+input.form-control.form-input::placeholder {
+    color: #EEEEEE;
+}
+.btn-got-project{
+ background-color: #00ADB5;
+color: #EEEEEE;
+font-weight: bold;
+border: none;
+width:200px ;
+font-size: 16px;
+border-radius: 40px;
+margin-top: 30px;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.9);
+
+}
+.btn-got-project:hover {
+    background-color: #009698;
+    }
+.btn-got-project img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+.list-social-media {
+    list-style-type: none;      
+    display: flex;                
+    justify-content: center;      
+    align-items: center;         
+    margin: 0;                   
+    padding: 0;                   
+    color: #EEEEEE;               
+}
+
+.social-media-li {
+    margin: 0 30px;             
+}
+.social-media-li img{
+    margin-right: 5px;
+}
+.social-media-icon-grup{
+    margin: 35px;
+}
+.social-media-icon-grup img{
+    height: 40px;
+    width: 40px;
+}
+.Privacy-policy{
+    color: #EEEEEE;
+    text-align: right;
+}
+.list-social-media li img{
+    height: 20px;
+    width: 20px;
+}
+
+/* Responsive Extra Small Devices (Phones, < 576px) */
+@media (max-width: 575px) {
+    .Header-1 {
+        font-size: 50px;
+    }
+    .nav {
+        margin: 1px !important;
+        padding: 0 !important;
+        list-style: none; 
+    }
+    
+    .nav-item {
+        margin: 4px !important;
+        padding: 0 !important;
+    }
+    
+    .nav-link {
+        padding: 0 !important;
+    }
+    
+    
+    .btn-rcent-1{
+        margin-left: 1px;
+    }
+    .Designer {
+        font-size: 40px;
+    }
+    .logo{
+        margin: 0;
+    }
+    .btn-hire-me, .btn-download-cv {
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+    .img-section-1 {
+        margin-left: 0;
+    }
+    .my-recent-work-section{
+        padding: 0;
+    }
+    .about-me-section-1{
+        padding: 0;
+    }
+    .got-project-img img {
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+    .header-about,
+    .got-project-header,
+    .header-my-recent-work {
+        font-size: 40px;
+    }
+    .mind{
+        font-size: 40px; 
+    }
+    .got-project-section-1{
+        padding: 0;
+    }
+    
+    .text-me, .mind, .btn-works-recent {
+        font-size: 40px;
+    }
+    .logo {
+        font-size: 20px;
+    }
+    .social-media-li {
+        margin: 0 15px;
+    }
+    #icon-1{
+        margin-left: 0;
+    }
+
+}
+
+/* Small Devices (Tablets, 576px - 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .Header-1 {
+        font-size: 60px;
+    }
+    .logo{
+       
+        margin: 0;
+    }
+    .img-section-1 {
+        margin-left: 0;
+    }
+    #icon-1{
+        margin-left: 0;
+    }
+    .about-me-section-1{
+        padding: 0;
+    }
+    .my-recent-work-section{
+        padding: 0;
+    }
+    .got-project-img img{
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .got-project-section-1{
+        padding: 0;
+    }
+    .Designer {
+        font-size: 50px;
+    }
+    .btn-hire-me, .btn-download-cv {
+        font-size: 18px;
+        padding: 10px 25px;
+    }
+    .img-section-1 {
+        margin-left: 0;
+        width: 100%;
+    }
+    .got-project-img img {
+        width: 250px;
+        height: auto;
+        margin-left: 0;
+    }
+    .header-about,
+    .got-project-header,
+    .header-my-recent-work {
+        font-size: 50px;
+    }
+    .text-me, .mind, .btn-works-recent {
+        font-size: 50px;
+    }
+    .logo {
+        font-size: 22px;
+    }
+    .social-media-li {
+        margin: 0 20px;
+    }
+}
+
+/* Medium Devices (Laptops, 768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .Header-1 {
+        font-size: 70px;
+    }
+    .logo{
+       
+        margin: 0;
+    }
+    .Designer {
+        font-size: 60px;
+    }
+    .btn-hire-me, .btn-download-cv {
+        font-size: 18px;
+        padding: 10px 25px;
+    }
+    .img-section-1 {
+        margin-left: 10px;
+    }
+    .got-project-img img {
+        width: 280px;
+        height: auto;
+        margin-left: 10px;
+    }
+    .header-about,
+    .got-project-header,
+    .header-my-recent-work {
+        font-size: 60px;
+    }
+    .text-me, .mind, .btn-works-recent {
+        font-size: 60px;
+    }
+    .logo {
+        font-size: 24px;
+    }
+}
+
+/* Large Devices (Desktops, 1025px - 1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .Header-1 {
+        font-size: 80px;
+    }
+    .Designer {
+        font-size: 70px;
+    }
+    .btn-hire-me, .btn-download-cv {
+        font-size: 20px;
+        padding: 12px 30px;
+    }
+    .img-section-1 {
+        margin-left: 70px;
+        }
+    .got-project-img img {
+        width: 300px;
+        height: auto;
+        margin-left: 100px;
+    }
+}
+
+/* Extra Large Devices (Big Screens, > 1200px) */
+@media (min-width: 1201px) {
+    .Header-1 {
+        font-size: 96px;
+    }
+    .Designer {
+        font-size: 96px;
+    }
+    .btn-hire-me, .btn-download-cv {
+        font-size: 22px;
+        padding: 12px 30px;
+    }
+    .img-section-1 {
+        margin-left: 190px;
+    }
+    .got-project-img img {
+        width: 300px;
+        height: auto;
+        margin-left: 60px;
+    }
+    .about-me-section-1{
+        padding: 200px 0 100px 0;
+    }
+    .got-project-section-1{
+        padding: 100px 0 100px 0;
+    }
+    .container{
+        padding-top: 100px;
+    }
+}
+
